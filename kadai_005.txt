@@ -1,0 +1,24 @@
+PS C:\Users\owner\Documents\samurai> mkdir git_challenge
+
+    Directory: C:\Users\owner\Documents\samurai
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2024/09/16    10:19                git_challenge
+
+PS C:\Users\owner\Documents\samurai> cd git_challenge
+PS C:\Users\owner\Documents\samurai\git_challenge> git init
+Initialized empty Git repository in C:/Users/owner/Documents/samurai/git_challenge/.git/
+PS C:\Users\owner\Documents\samurai\git_challenge> git add hello_world.txt
+PS C:\Users\owner\Documents\samurai\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) a8e3bf3] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\owner\Documents\samurai\git_challenge> git add hello_world.txt
+PS C:\Users\owner\Documents\samurai\git_challenge> git commit -m "日本語訳を追記"       
+[main b920451] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\owner\Documents\samurai\git_challenge> git log --oneline             
+b920451 (HEAD -> main) 日本語訳を追記
+a8e3bf3 hello_world.txtを追加
+PS C:\Users\owner\Documents\samurai\git_challenge> 
